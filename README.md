@@ -46,6 +46,14 @@ A 24-second gameplay demo video showcasing all features:
 
 ---
 
+## 🏛️ System Architecture
+
+![Superman UNO System Architecture](media/architecture_diagram.png)
+
+For complete technical specifications, component hierarchies, state flow diagrams, and procedural audio synthesis pipelines, see the [Architecture Documentation](ARCHITECTURE.md).
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
