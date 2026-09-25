@@ -57,32 +57,59 @@ For complete technical specifications, component hierarchies, state flow diagram
 
 ---
 
-## 🚀 Getting Started
+## 📖 How to Play (Game Instructions)
+
+The goal is to defeat the villains and be the first player to empty your hand of cards!
+
+### 1. Basic Rules
+- **Matching Cards**: On your turn, play a card that matches the **Color** (*Solar Crimson, Metropolis Azure, Solar Gold, Kryptonite Emerald*) or **Number / Symbol** of the current card on top of the Discard Pile.
+- **Wild Cards**: Wild cards (`Fortress Spectrum`, `Kryptonite Ambush +4`, and `Solar Burst`) can be played on any turn. When played, pick a new active color.
+- **Drawing Cards**: If you don't have a playable card, click the **Draw Deck** to draw a card.
+
+### 2. Calling UNO ("Up, Up & Away!")
+- **When You Have 1 Card Left**: Immediately click the flaming **"⚡ CALL UNO!"** button before ending your turn.
+- **Catching Opponents**: If an AI opponent fails to call UNO when they hold only 1 card, click the **"🚨 CATCH OPPONENT UNO!"** button to penalize them with **+2 penalty cards**!
+
+### 3. Action Cards Guide
+- 🔥 **Heat Vision Blast (Skip)**: Stuns the next player and skips their turn. In 2-Player Duel, gives you an immediate extra turn!
+- 🔄 **Vortex Rewind (Reverse)**: Reverses the direction of play orbit (Clockwise ⇄ Counter-Clockwise).
+- 💥 **Super Punch (+2)**: Forces the next player to draw 2 cards and forfeits their turn.
+- ❄️ **Fortress Spectrum (Wild)**: Changes the active color to any frequency of your choice.
+- ☢️ **Kryptonite Ambush (+4)**: Shifts color and forces the next player to draw 4 cards and skip their turn.
+- ☀️ **Solar Burst (Superman Exclusive)**: Changes active color and forces **all opponents** to draw 1 card each!
+
+---
+
+## 🚀 Getting Started (Run Locally)
 
 ### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm or yarn / pnpm
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- `git`
 
-### Installation
+### Quick Start Instructions
 
 ```bash
-# Clone the repository
-git clone <your-repository-url>
-cd superman-uno
+# 1. Clone the repository
+git clone https://github.com/phanisyamresearch-tech/supermanuno.git
+cd supermanuno
 
-# Install dependencies
+# 2. Install dependencies
 npm install
 
-# Start the Vite development server
+# 3. Start the local development server
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173`.
+Open your browser and navigate to:
+👉 **`http://localhost:5173`**
 
 ### Production Build
 
 ```bash
+# Build optimized production bundle
 npm run build
+
+# Preview production build locally
 npm run preview
 ```
 
