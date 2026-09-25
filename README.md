@@ -40,9 +40,12 @@ An authentic, comic-book-styled **UNO card game** built with **React**, **Vite**
 
 ## 🎮 Gameplay Demo
 
-A 24-second gameplay demo video showcasing all features:
+Watch the 24-second live gameplay demo:
 
-- Video file: [`media/superman_uno_demo.mp4`](media/superman_uno_demo.mp4)
+![Superman UNO Gameplay Demo](media/superman_uno_demo.gif)
+
+- 🎥 **Full HD MP4 Video with Audio**: [Watch / Download `superman_uno_demo.mp4`](https://github.com/phanisyamresearch-tech/supermanuno/raw/main/media/superman_uno_demo.mp4)
+- 📁 **Repository File**: [`media/superman_uno_demo.mp4`](media/superman_uno_demo.mp4)
 
 ---
 
